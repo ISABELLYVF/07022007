@@ -22,7 +22,7 @@ async function userCountByNetwork() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Social Networks with Most Users',
+            text: 'esport mais praticado',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
