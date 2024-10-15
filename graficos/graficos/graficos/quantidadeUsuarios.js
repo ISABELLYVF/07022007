@@ -1,7 +1,7 @@
 import { getCSS, tickConfig } from "./common.js";
 
 async function userCountByNetwork() {
-    const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json';
+    const url = 'https://raw.githubusercontent.com/ISABELLYVF/07022007/main/graficos/API/numero-usuarios.json';
     const res = await fetch(url);
     const data = await res.json();
     const networkNames = Object.keys(data);
